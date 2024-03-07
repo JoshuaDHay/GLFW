@@ -121,6 +121,9 @@ information on what to include when reporting a bug.
 
 ## Changelog since 3.4
 
+ - Added OpenGL and OpenGL ES user contexts for multiple window contexts via
+         `GLFWusercontext`, `glfwCreateUserContext`, `glfwDestroyUserContext`,
+         `glfwMakeUserContextCurrent`, `glfwGetCurrentUserContext` (#1687,#1870)
 
 ## Contact
 
